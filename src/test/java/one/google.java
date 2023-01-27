@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 public class google {
 	
 	WebDriver driver;
+	String abs;
 	
 	public google() {
 		System.setProperty("webdriver.chrome.driver",
